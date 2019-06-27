@@ -1,0 +1,15 @@
+@import "../../assets/styles/variables";
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 80px;
+    padding: 40px;
+    font-family: $FuturaPT;
+    color: $greyColor;
+    font-size: 20px;
+}
