@@ -14,4 +14,15 @@
     margin: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 880px;
+        margin-bottom: 40px;
+    }
 }

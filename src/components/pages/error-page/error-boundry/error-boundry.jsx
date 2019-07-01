@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import ErrorIndicator from '../error-indicator';
 
-export default class ErrorBoundry extends Component {
+export default class ErrorBoundry extends PureComponent {
     state = {
         hasError: false
     };

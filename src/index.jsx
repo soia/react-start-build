@@ -10,11 +10,7 @@ import { StoreServiceProvider } from './components/store-service-context';
 import store from './helpers/store';
 import './i18n';
 
-import './components/app/app.module.scss';
-
-// setup fake backend
-// import { configureFakeBackend } from './helpers';
-// configureFakeBackend();
+import './components/app/app.scss';
 
 const mainService = new MainService();
 

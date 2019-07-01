@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 
@@ -15,11 +15,11 @@ const SomeView = ({ training }) => {
             {training.map(item => {
                 const { id, number, description, img } = item;
                 return (
-                    <Fragment key={id}>
+                    <div className={style.wrappper__item} key={id}>
                         <img src={img || noImage} alt={id} />
                         <p>{number}</p>
                         <div>{description}</div>
-                    </Fragment>
+                    </div>
                 );
             })}
         </div>
