@@ -1,12 +1,9 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
-import style from './some-page.module.scss';
+import SomeContainer from './some-container';
 
 const SomePage = () => {
-    const { t } = useTranslation();
-
-    return <div className={style.somePage}>{t('test.somepage')}</div>;
+    return <SomeContainer />;
 };
 
 export default SomePage;
